@@ -1,6 +1,23 @@
-# bibtex_thinner
-Quick and dirty python script that shorten a bibtex file according to the citations actually present in a .tex file.
+# Bibtex Thinner
 
-# to do:
-- add command-line or even GUI interface that handle multiple format of files and citations styles.
-- make the code less messy
+Small Python 3 script that shorten a bibtex file depending on the citations used in a target .tex file.
+
+## Installation
+You need to have [Python 3](https://www.python.org/downloads/) installed for this script to work.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install regex if needs be.
+
+```bash
+pip install regex
+```
+
+## Usage
+From the command line, launch the program using python then add your .tex file as a first argument and your .bib file as your second argument, like so:
+```bash
+python thinner.py a_latex_file.tex a_bibliography.bib
+```
+
+### Notes
+- please refer to the code to see which citing commands are supported. For now the "cite","parencite","citep","citet" are being parsed. If you wish to process more commands, simply add them to the list of strings in the "CITE_STYLES" variable.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
