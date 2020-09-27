@@ -33,7 +33,7 @@ def output_results():
   output = open("THINNED_"+str(sys.argv[1]), "w")
   output.write(entries_to_keep)
   output.close()
-  print("Done! Output file saved in current folder as '"+"THINNED_"+str(sys.argv[1])+"'")
+  print("Done! Output file saved in current folder as '"+"THINNED_"+str(sys.argv[2])+"'")
 
 def update_full_entries(a_string):
   global entries_to_keep
