@@ -2,6 +2,8 @@
 *** BIBTEX THINNER 1.0 ***
 This simple programs reduces the number of entries present in a .bib file by only keeping
 the ones used in a target .tex file.
+argument 1: a tex file
+argument 2: a .bib file
 Example usage:
 > thinner.py my_latex_file.tex my_bibliography.bib
 the output will be stored in a new file located in the same folder with the prefix "THINNED_"
