@@ -15,9 +15,10 @@ From the command line, launch the program using python then add your .tex file a
 ```bash
 python thinner.py a_latex_file.tex a_bibliography.bib
 ```
+The output will be a file with the prefix "THINNED_" located in the same folder than your input files.
 
 ### Notes
-- please refer to the code to see which citing commands are supported. For now the "cite","parencite","citep","citet" are being parsed. If you wish to process more commands, simply add them to the list of strings in the "CITE_STYLES" variable.
+please refer to the code to see which citing commands are supported. For now the "cite","parencite","citep","citet" are parsed. If you wish to process more commands, simply add them to the list of strings in the "CITE_STYLES" variable.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
