@@ -4,7 +4,7 @@ Small Python 3 script that shortens a bibtex file depending on the citations use
 
 ## Installation
 You need to have [Python 3](https://www.python.org/downloads/) installed for this script to work.
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install regex if needs be.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the regex module if needs be.
 
 ```bash
 pip install regex
