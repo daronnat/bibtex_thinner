@@ -1,6 +1,6 @@
 # Bibtex Thinner
 
-Small Python 3 script that shorten a bibtex file depending on the citations used in a target .tex file.
+Small Python 3 script that shortens a bibtex file depending on the citations used in a target .tex file.
 
 ## Installation
 You need to have [Python 3](https://www.python.org/downloads/) installed for this script to work.
